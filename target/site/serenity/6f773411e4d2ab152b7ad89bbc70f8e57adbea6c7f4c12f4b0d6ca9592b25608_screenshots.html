@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="d567d5aa48603d67503020bd0e158a8073e722cc5c6cff77a3f1428e92555cba.html">Register A New User In Utest</a></span>
+                > <span class="truncate-60"><a
+                    href="6f773411e4d2ab152b7ad89bbc70f8e57adbea6c7f4c12f4b0d6ca9592b25608.html">Fill out the UTest platform registration form </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-10-2022 01:03</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Register A New User In Utest </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to register on UTest
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Fill out the UTest platform registration form
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6a574d8e3b905cec44324932dc9b1a48e5d925259bff1ecf78f403025327bf0b.png" title=" Given than Camilo wants to register on UTest platform" width="1366"/>
+                <img src="6a574d8e3b905cec44324932dc9b1a48e5d925259bff1ecf78f403025327bf0b.png" title=" Camilo open up" width="1366"/>
+                <img src="6a574d8e3b905cec44324932dc9b1a48e5d925259bff1ecf78f403025327bf0b.png" title=" Camilo opens the Utest page" width="1366"/>
+                <img src="6227b5878145906b0252801abdfe76c586e1dd1870f65305e06dc981f333dd5d.png" title=" Camilo clicks on Button that show us the register form" width="1366"/>
+                <img src="8c789596ae2c4ccd11631e023f7ae22bf491f58d6047875467559e608b3e71c7.png" title=" Camilo open up (completed)" width="1366"/>
+                <img src="6227b5878145906b0252801abdfe76c586e1dd1870f65305e06dc981f333dd5d.png" title=" Given than Camilo wants to register on UTest platform (completed)" width="1366"/>
+                <img src="da2be9b8b8cc912a30b0f3c81cb4a81deda9ac677cd5af7ecf6612b313870654.png" title=" When he completes the registration form with his data
+| firstName | lastName | email | monthBirth | birthDay | yearBirth | city | zip | country | computer | version | language | mobile | model | operatingSystem | password |
+| Camilo | Rodriguez | camilo@gmail.com | September | 7 | 2001 | Bogota | 11011 | Colombia | Windows | 10 | English | Samsung | Galaxy | Android 4.1 | academyChoucair1 |" width="1366"/>
+                <img src="da2be9b8b8cc912a30b0f3c81cb4a81deda9ac677cd5af7ecf6612b313870654.png" title=" Camilo fill out" width="1366"/>
+                <img src="da2be9b8b8cc912a30b0f3c81cb4a81deda9ac677cd5af7ecf6612b313870654.png" title=" Camilo enters 'Camilo' into Where we write the first name" width="1366"/>
+                <img src="b5955102885f21c0a841dc5407643728063448b9f107c1be9f27529f6b2ce074.png" title=" Camilo enters 'Rodriguez' into Where we write the last name" width="1366"/>
+                <img src="a7da93fccd9cf3b5234da379890824139e478583762685b46466ff9e55d50242.png" title=" Camilo enters 'camilo@gmail.com' into Where we write the email" width="1366"/>
+                <img src="287297f43870df2f686bdbcc9d21bf27e7bd1eab3948787b903a13bed5b11804.png" title=" Camilo select September on Where we select the birth month" width="1366"/>
+                <img src="8ed33d4035618050f24e32e104d2c0a1528d2954c806ca3ba98ffcf4f6fd3b62.png" title=" Camilo select 7 on Where we select the birthDay" width="1366"/>
+                <img src="74321604b18377def79159e7fd92eecadeb8da363347acf7598a15598792a5dd.png" title=" Camilo select 2001 on Where we select the birth year" width="1366"/>
+                <img src="a1ff362b48f2b36c00f58b0fcefb903227ee993e9ee62c5b8a347e6e2fa1515a.png" title=" Camilo clicks on Button to go to the next form (location)" width="1366"/>
+                <img src="a1ff362b48f2b36c00f58b0fcefb903227ee993e9ee62c5b8a347e6e2fa1515a.png" title=" Camilo fill out (completed)" width="1366"/>
+                <img src="c573cff9d644e9775f8311ce690acb24dccdc15328302a20764c3d9e7998d5d8.png" title=" Camilo complete" width="1366"/>
+                <img src="c573cff9d644e9775f8311ce690acb24dccdc15328302a20764c3d9e7998d5d8.png" title=" Camilo enters 'Bogota' then hits ARROW_DOWN and ENTER into Where we write the city " width="1366"/>
+                <img src="cd376b9c49c8d2e20b63016eca01565c1f19d0b61829d4e39c3242ff62ed01cb.png" title=" Camilo enters 'Bogota' then hits ARROW_DOWN and ENTER into Where we write the city " width="1366"/>
+                <img src="6dd207bc3f5979495d08de42293a6c35008287162526383a126fac5771f50e65.png" title=" Camilo enters '11011' into Where we write the Zip or Postal Code" width="1366"/>
+                <img src="e92d6fa9998529b18483052ba26583be7ec24c058ce6ddd01074550993f1e68f.png" title=" Camilo clicks on Where we select the country" width="1366"/>
+                <img src="5dd01e0b7f3d2188ae01a8c00f441c2343c9d6f3fe2a18b6bcc6ee1dab655c52.png" title=" Camilo enters 'Colombia' into Where we write the country" width="1366"/>
+                <img src="93520e985e8814a9f114ae4047f6b8468bd15401189949464226dd5b90411742.png" title=" Camilo clicks on Button to go to the next form (devices)" width="1366"/>
+                <img src="93520e985e8814a9f114ae4047f6b8468bd15401189949464226dd5b90411742.png" title=" Camilo complete (completed)" width="1366"/>
+                <img src="595c8f4ac1dc552d4f5be7485169058d84f513ea07cf07260202f3e49cad520b.png" title=" Camilo select" width="1366"/>
+                <img src="595c8f4ac1dc552d4f5be7485169058d84f513ea07cf07260202f3e49cad520b.png" title=" Camilo clicks on Where we select the computer" width="1366"/>
+                <img src="8bec27d532f63fe2b8849a1df3f056767c9dac73d27ce19f48de2a884f5f560f.png" title=" Camilo enters 'Windows' then hits ARROW_DOWN and ENTER into Where we write the computer" width="1366"/>
+                <img src="e5821b8668ff7838d3642136f7d236169c0344300277d08581cea278c7b34518.png" title=" Camilo clicks on Where we write the version" width="1366"/>
+                <img src="9225523b52bba3859ea5714b4c262d7268b08c11d3650e43e8ba30922ff32b48.png" title=" Camilo enters '10' then hits ARROW_DOWN and ENTER into Where we write the version" width="1366"/>
+                <img src="5a0cf250e6cb8edd48ed9971a2dc667f60945d45140bc29a9cce99df6ef47efd.png" title=" Camilo clicks on Where we write the language" width="1366"/>
+                <img src="37b90d8c0da62e01874876151c55127d2d285e78ffdb8758b904a1a8a6553737.png" title=" Camilo enters 'English' then hits ARROW_DOWN and ENTER into Where we write the language" width="1366"/>
+                <img src="36a90e3944fb64965d72dd5d6ef332a6d1204a347ef2d6f58aa632beb3c36a7c.png" title=" Camilo clicks on Where we write the mobile" width="1366"/>
+                <img src="7c7d539c2742f33f8d5a3d43cf10a4816de18ad2db5932aa94fedb038af9bc97.png" title=" Camilo enters 'Samsung' then hits ARROW_DOWN and ENTER into Where we write the mobile" width="1366"/>
+                <img src="6d3bfec44ebcfffd214cfbb42245ee977eccbc0728346da4be5468ab8ee7f1da.png" title=" Camilo clicks on Where we write the mobile model" width="1366"/>
+                <img src="e8e933bc406c9a7bcf43dd4ce8a4cf94c1c1ce3530ba5bc06c4269d72669d215.png" title=" Camilo enters 'Galaxy' then hits [ENTER] into Where we write the mobile model" width="1366"/>
+                <img src="d747c28b4ae47905424c8cea340582b617f016082a9b599fa1cca002bf2082ce.png" title=" Camilo clicks on Where we write the mobile operating system" width="1366"/>
+                <img src="f4b5997d85a08f45c9c8cbb0cc879d1b5a182f28276b38c5758dd50420273c2c.png" title=" Camilo enters 'Android 4.1' then hits [ENTER] into Where we write the mobile operating system" width="1366"/>
+                <img src="e6413b255a0f0480c40508b9515ad1d60fca916335d2d73f88f39947df99f649.png" title=" Camilo clicks on Button to Complete Setup " width="1366"/>
+                <img src="e6413b255a0f0480c40508b9515ad1d60fca916335d2d73f88f39947df99f649.png" title=" Camilo select (completed)" width="1366"/>
+                <img src="aec955d0002529956eb373cdaef1adb6f0de2eade2c726de5799ece8e104bebf.png" title=" Camilo write in" width="1366"/>
+                <img src="aec955d0002529956eb373cdaef1adb6f0de2eade2c726de5799ece8e104bebf.png" title=" Camilo enters 'academyChoucair1' into Where we write the password" width="1366"/>
+                <img src="e399ec38222aaf0ffce8e903e2a8f676038732a7fbbc54968d2c8d6878c41310.png" title=" Camilo enters 'academyChoucair1' into Where we write the password again (confirm password)" width="1366"/>
+                <img src="348b0ad7cc2cef0cbffebc7a32989cca540b5a2323758f92f907eb0146f7bfa1.png" title=" Camilo clicks on Where we check terms of use" width="1366"/>
+                <img src="a388a8e3b9495d9758ff8dfd4e74df8665d1dd6dc7700455b5855d7829d185d6.png" title=" Camilo clicks on Where we check the terms of privacy" width="1366"/>
+                <img src="44c4cf151fd2334e0e40ba5f17c8bc58bb19bd9b6c9725d2a5d3531ef10b54fd.png" title=" Camilo clicks on Button to go to the next form (Last step)" width="1366"/>
+                <img src="44c4cf151fd2334e0e40ba5f17c8bc58bb19bd9b6c9725d2a5d3531ef10b54fd.png" title=" Camilo write in (completed)" width="1366"/>
+                <img src="d8c8ff6612f95cff319e0c8c0bb08f0c618353b9674e17a9ade378536f16b7c2.png" title=" When he completes the registration form with his data
+| firstName | lastName | email | monthBirth | birthDay | yearBirth | city | zip | country | computer | version | language | mobile | model | operatingSystem | password |
+| Camilo | Rodriguez | camilo@gmail.com | September | 7 | 2001 | Bogota | 11011 | Colombia | Windows | 10 | English | Samsung | Galaxy | Android 4.1 | academyChoucair1 | (completed)" width="1366"/>
+                <img src="e0cb181ebc3baebdac1855ba4970ad9de548bb1c9e7e957235487c381cbf1cdc.png" title=" Then he finds the final button and registration is successful
+| finalButtonText |
+| Complete Setup |" width="1366"/>
+                <img src="e0cb181ebc3baebdac1855ba4970ad9de548bb1c9e7e957235487c381cbf1cdc.png" title=" Then answer" width="1366"/>
+                <img src="e0cb181ebc3baebdac1855ba4970ad9de548bb1c9e7e957235487c381cbf1cdc.png" title=" Then he finds the final button and registration is successful
+| finalButtonText |
+| Complete Setup | (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
